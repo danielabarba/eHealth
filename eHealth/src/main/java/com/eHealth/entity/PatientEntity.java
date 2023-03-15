@@ -3,7 +3,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import java.time.LocalDate;
 
-@Entity
+@Entity(name="patient")
 public class PatientEntity {
     @Id
     private int id;
